@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Megha & You - 2 Years Together</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>❤️ Megha & You - 2 Years of Love ❤️</h1>
+        <p class="intro">Megha, these two years have been magical. This space is dedicated to our journey, memories, and my love for you! 💖</p>
+        
+        <button class="love-button" onclick="showSurprise()">Click for a Surprise</button>
+        <div id="surpriseMessage" class="hidden">
+            <p>My love for you grows stronger every single day! Here's to forever with you. 😘</p>
+        </div>
+
+
+        <h2>✨ Our Love Timeline ✨</h2>
+        <ul>
+            <li>🌹 **Day We Met:** The moment I knew you were special!</li>
+            <li>💑 **First Date:** Butterflies & unforgettable smiles.</li>
+            <li>🌎 **Adventures Together:** Every trip was a dream with you.</li>
+            <li>💞 **2 Years Today:** Stronger, deeper, and more magical! ✨</li>
+        </ul>
+
+
+        <h2>💌 Open When Letters 💌</h2>
+        <button onclick="showLetter('happy')">Open When You're Happy</button>
+        <button onclick="showLetter('sad')">Open When You're Feeling Down</button>
+        <p id="loveLetter"></p>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+

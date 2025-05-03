@@ -1,0 +1,15 @@
+function showSurprise() {
+document.getElementById("surpriseMessage").classList.remove("hidden");
+}
+
+function showLetter(type) {
+let message = "";
+
+if (type === "happy") {
+message = "Megha, I love your smile! You make the world brighter. 💖";
+} else if (type === "sad") {
+message = "Whenever you're feeling down, remember: You are loved, cherished, and my heart is always with you! 💞";
+}
+
+document.getElementById("loveLetter").innerHTML = message;
+}
